@@ -2,6 +2,7 @@
 
 Streamlit + Python + opencv + ESRGAN 
 
+### Run command: streamlit run new.py
 
 ![se1](https://github.com/user-attachments/assets/64e95319-69f1-4386-a8a6-70727d21456d)
 ![se2](https://github.com/user-attachments/assets/8b7d928c-18af-4033-956d-d760eb837b5e)
