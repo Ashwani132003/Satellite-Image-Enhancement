@@ -160,7 +160,7 @@ def display_magnifier(image_array, label):
 
 @st.cache_resource
 def load_esrgan_model():
-    model_path = 'ESRGAN/models/RRDB_ESRGAN_x4.pth'
+    model_path = 'RRDB_ESRGAN_x4.pth'
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     model = arch.RRDBNet(3, 3, 64, 23, gc=32)
     model.load_state_dict(torch.load(model_path, map_location=device), strict=True)
